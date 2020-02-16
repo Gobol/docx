@@ -65,8 +65,8 @@ func (r *ReplaceDocx) Editable() *Docx {
 }
 
 func (r *ReplaceDocx) GetContent() string {
-    return r.content
-}}
+	return r.content
+}
 
 func (r *ReplaceDocx) Close() error {
 	return r.zipReader.close()
