@@ -64,7 +64,7 @@ func (r *ReplaceDocx) Editable() *Docx {
 	}
 }
 
-func (r *ReplaceDocx) GetContent() string {
+func (r *Docx) GetContent() string {
 	return r.content
 }
 
